@@ -2,7 +2,9 @@ function notImplemented() {
   throw new Error('Корзина ещё не реализована. Сначала прочитайте тесты.');
 }
 
-function addToCart() { return notImplemented(); }
+function addToCart() {
+  return notImplemented();
+}
 function changeQuantity() { return notImplemented(); }
 function removeFromCart() { return notImplemented(); }
 function calculateCartSubtotal() { return notImplemented(); }
